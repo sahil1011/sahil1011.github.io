@@ -17,6 +17,11 @@
     <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
     <script src="sliderengine/initslider-1.js"></script>
     
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="main.css">
+	<script src="modernizr-2.6.2.min.js"></script>
+   <script src="main.js"></script>
+    
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -64,13 +69,21 @@ body, html {
 </style>
 <body>
 
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+		</div>
+
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-text-black w3-white w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button w3-text-white">sahilarora.com</a>
+    <a href="#home" class="w3-bar-item w3-button w3-text-white">sahilarora.tech</a>
     <a href="#about" class="w3-bar-item w3-button w3-text-white w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-text-white w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-text-white w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
@@ -100,7 +113,7 @@ body, html {
           and I am a
 front-end developer  </h1>
         </div> </span> 
-        <a href="http://www.sahilarora.tech/contact">   <button class="w3-button w3-display-bottommiddle w3-round-xxlarge w3-lg w3-yellow w3-hover-black " >Hire me</button></a>
+        <a href="#contact">   <button class="w3-button w3-display-bottommiddle w3-round-xxlarge w3-lg w3-yellow w3-hover-black " >Hire me</button></a>
       </div >
    
       </div>
@@ -114,12 +127,12 @@ front-end developer  </h1>
   <div class="w3-padding-64 w3-light-grey">
   <div class="w3-row-padding">
     <div class="w3-col l4 m6">
-      <img class="w3-image w3-hide-small w3-grayscale w3-circle" src="/images/10.jpg" alt="App" width="335" height="471">
+      <img class="w3-image w3-hide-small w3-grayscale w3-circle" src="IMG_1557.PNG" alt="App" width="335" height="471">
     </div>
     <div class="w3-col l8 m6">
       <h1 class="w3-jumbo"><b>Sahil Arora</b></h1>
       <h1 class="w3-xxxlarge w3-text-red"><b>Sahil, who?</b></h1>
-        <p><span class="w3-xlarge">Hi,I am Sahil Arora ,a 21 year old freelance end developer.</span></p>
+        <p><span class="w3-xlarge">Hi,I am Sahil Arora ,a 21 year old front-end developer.</span></p>
     </div>
   </div>
 </div>
@@ -145,7 +158,7 @@ front-end developer  </h1>
    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 48px;">
         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><a href="projects" class="html5lightbox"><img src="images/381876_78ea.jpg" alt="My Projects"  title="My Projects" data-texteffect="Light box" data-duration="4000" /></a>
+                <li><a href="http://www.sahilarora.tech/projects" class="html5lightbox"><img src="images/381876_78ea.jpg" alt="My Projects"  title="My Projects" data-texteffect="Light box" data-duration="4000" /></a>
                 </li>
                 <li><a href="www.sahilarora.tech/blog" class="html5lightbox"><img src="images/crearse-un-blog.jpg" alt="My Blog"  title="My Blog" data-texteffect="Light box" data-duration="4000" /></a>
                 </li>
@@ -196,7 +209,7 @@ front-end developer  </h1>
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-center"></i> New Delhi,India<br>
     
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-center"></i> Email:info@sahilarora.tech <br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-center"></i> Email:sahilsa71@gmail.com <br>
       <a href="http://www.sahilarora.tech/contact" class="btn btn-primary">Hire me</a>
       </div>
  
