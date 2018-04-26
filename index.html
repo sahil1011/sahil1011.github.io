@@ -8,11 +8,12 @@
 <link rel="stylesheet" href="./fontawesome.min.css">
 <link rel="stylesheet" href="./animate.css">
 <link rel="stylesheet" href="./bootstrap-social-gh-pages/bootstrap-social.css">
+<script src="scroll-down.js"></script>
 <script src="./fontawesome-all.js"></script>
 <script src="./font.js"></script>
 <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
  <script src="./jquery.js"></script>   
-<script src="./bootstrap.min.js"></script>
+<script src="./bootstrap.min.js"></script><script src="scroll-down.js"></script>
       <script src="sliderengine/amazingslider.js"></script>
     <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
     <script src="sliderengine/initslider-1.js"></script>
@@ -21,8 +22,6 @@
 	<link rel="stylesheet" href="main.css">
 	<script src="modernizr-2.6.2.min.js"></script>
    <script src="main.js"></script>
-	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -41,7 +40,8 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('/background4.jpg');
+    background-image: url('/images/sa.jpg');
+
     min-height: 100%;
 }
 
@@ -103,17 +103,21 @@ body, html {
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-   
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> Hello, my name is Sahil Arora 
-	    </br> and I am a
-front-end developer    </span>
-	</br>
+<div class="bgimg-1 w3-display-container " id="home">
+  <div class="w3-display-middle " style="white-space:nowrap;">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<a class="ct-btn-scroll ct-js-btn-scroll" href="#portfolio"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
 
-        
+
+  
       </div >
-   
+ 
       </div>
 
 <div class="animated tada">
@@ -154,14 +158,18 @@ front-end developer    </span>
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="w3-black">
    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 48px;">
+       <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:100%;margin:0 auto;">
         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><a href="http://www.sahilarora.tech/projects" class="html5lightbox"><img src="images/381876_78ea.jpg" alt="My Projects"  title="My Projects" data-texteffect="Light box" data-duration="4000" /></a>
+                <li><a href="http://www.sahilarora.tech/blog" class="html5lightbox"><img src="images/blog.jpg" alt="Read My Blog"  title="Read My Blog" /></a>
+<a href="http://www.sahilarora.tech/blog"><button class="as-btn-blue-medium">Blog</button></a>
                 </li>
-                <li><a href="http://www.sahilarora.tech/blog" class="html5lightbox"><img src="images/crearse-un-blog.jpg" alt="My Blog"  title="My Blog" data-texteffect="Light box" data-duration="4000" /></a>
+                <li><a href="http://www.sahilarora.tech/projects" class="html5lightbox"><img src="images/projects.jpg" alt="Watch My Work"  title="Watch My Work" /></a>
+<a href="http://www.sahilarora.tech/projects"><button class="as-btn-blue-medium">Projects</button></a>
                 </li>
             </ul>
         </div>
+    </div>
     </div>
     </div>   
     <div class="w3-row w3-center w3-dark-grey w3-padding-16">
@@ -219,7 +227,7 @@ front-end developer    </span>
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="sahilaroracom"><a class="LI-simple-link" href='https://in.linkedin.com/in/sahilaroracom?trk=profile-badge'>Sahil Arora</a></div>
+
   </div>
 </footer>
 
